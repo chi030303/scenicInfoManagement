@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="spot1">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>50</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/颐和园.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot7">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>600</y>
+      <width>151</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/香山公园.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>230</y>
+      <width>171</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/天安门.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot6">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>520</y>
+      <width>161</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/天坛.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>171</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/长城.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>60</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/鸟巢.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot5">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>320</y>
+      <width>111</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-image: url(&quot;D:/QT/program/scenicInfoManagement/学校.png&quot;);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recommend">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>250</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>推荐路径</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recommendpath">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>70</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>推荐游览路线</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spotguide">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>150</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景点导航</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot1_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>160</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>颐和园</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot3_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>140</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>长城</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot7_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>680</y>
+      <width>72</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>香山公园</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot2_2">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>390</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天安门</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot4_2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>180</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>鸟巢</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot6_2">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>650</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>天坛</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot5_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>450</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>北京交通大学</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="display">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>20</y>
+      <width>121</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看路线</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="guide">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>150</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="start">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>240</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="end">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>280</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="search">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>330</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="info">
+    <property name="geometry">
+     <rect>
+      <x>1290</x>
+      <y>320</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景点信息</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot1_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot3_3">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>20</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot4_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>50</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot7_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>590</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot5_3">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>290</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot2_3">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>250</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="spot6_3">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>490</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea_2">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>370</y>
+      <width>211</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-490</y>
+       <width>400</width>
+       <height>500000</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>400</width>
+       <height>500000</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="information">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>581</width>
+        <height>1000</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>1000</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <italic>true</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>ArrowCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+border-color: rgb(85, 255, 255);
+border: 2px solid ;
+font:bold italic 16px &quot;微软雅黑&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>景点信息：</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1500</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
